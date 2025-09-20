@@ -6,7 +6,7 @@ Users can **register, login, shorten long URLs, and fetch their shortened URLs**
 ---
 ## 🚀 Features
 - User Registration & Login with Sanctum Authentication  
-- Generate unique short codes for long URLs  
+- Generate unique short codes for long URLs ( Generates unique short codes by converting each URL's auto-increment ID into a compact base62 string (`0-9, a-z, A-Z`).
 - Fetch all shortened URLs for authenticated users  
 - Basic validation & error handling  
 
