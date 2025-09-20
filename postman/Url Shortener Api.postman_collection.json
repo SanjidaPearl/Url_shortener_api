@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "871ca3f1-8e9a-45a3-8fb1-405889d6a2e2",
+		"name": "Url Shortener Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48220988",
+		"_collection_link": "https://pearlcse18-6330650.postman.co/workspace/pearl-cse18's-Workspace~f710edf8-6e4f-4818-8bae-363b11250f29/collection/48220988-871ca3f1-8e9a-45a3-8fb1-405889d6a2e2?action=share&source=collection_link&creator=48220988"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/pp",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"pp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/pp",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"pp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Shorten",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/pp",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"pp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get URL",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/urls",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"urls"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
