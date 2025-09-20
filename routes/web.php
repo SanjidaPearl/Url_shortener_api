@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/short/{code}', [UrlController::class, 'redirect']);
+Route::get('/sh/{code}', [UrlController::class, 'redirect']);

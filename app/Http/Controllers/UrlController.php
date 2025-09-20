@@ -58,7 +58,7 @@ class UrlController extends Controller
             'message' => 'URL shortened successfully',
             'data'    => [
                 'original_url' => $url->original_url,
-                'short_url'    => url('/s/' . $url->short_code),
+                'short_url'    => url('/sh/' . $url->short_code),
                 'visits'       => $url->visits,
             ]
         ], 201);
