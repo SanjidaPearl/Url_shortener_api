@@ -121,3 +121,9 @@ Response
         "visits": null
     }
 }
+## 🧪 Postman Collection
+
+[Download Postman Collection](postman/Url Shortener Api.postman_collection.json)
+
+
+
